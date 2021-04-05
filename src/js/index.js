@@ -16,9 +16,9 @@ getJSON('http://localhost:8080/api/v1/airtravel',
             let table = document.querySelector("table");
             let data = Object.keys((records.data[0]));
             let dataRecords = records.data;
-            let make = new Table();
-            make.generateTableHead(table, data);
-            make.generateTable(table, dataRecords);
+            let create = new Table();
+            create.generateTableHead(table, data);
+            create.generateTable(table, dataRecords);
         }
 
     });

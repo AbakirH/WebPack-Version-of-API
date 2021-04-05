@@ -1,4 +1,3 @@
-  
 class GenerateTableFunction {
     generateTableHead(table, data) {
         let thead = table.createTHead();
@@ -14,7 +13,7 @@ class GenerateTableFunction {
     generateTable(table, data) {
         for (let element of data) {
             let row = table.insertRow();
-            console.log(element);
+            // console.log(element);
             let key;
             for (key in element) {
                 let cell = row.insertCell();
